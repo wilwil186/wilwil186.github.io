@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,19 +9,17 @@
             font-family: Arial, sans-serif;
             background-color: #000000;
             color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 20px;
         }
         .container {
-            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
             background-color: #111111;
             padding: 2rem;
             border-radius: 10px;
         }
-        h1 {
+        h1, h2 {
             color: #FF55A3;
         }
         .comments {
@@ -37,6 +35,10 @@
             cursor: pointer;
             border-radius: 5px;
         }
+        .legal-section {
+            margin-top: 2rem;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +52,26 @@
             <p>User 5: This is a comment 5</p>
         </div>
         <button class="extract-button">Extract Comments</button>
+
+        <div class="legal-section">
+            <h2>Términos de Servicio</h2>
+            <p>Al utilizar TikTok Comment Extractor, usted acepta los siguientes términos:</p>
+            <ul>
+                <li>Usar la aplicación solo para fines legales y éticos.</li>
+                <li>No infringir los derechos de propiedad intelectual de TikTok o de terceros.</li>
+                <li>No utilizar la aplicación para recopilar datos personales sin consentimiento.</li>
+                <li>Cumplir con todas las leyes y regulaciones aplicables.</li>
+            </ul>
+
+            <h2>Política de Privacidad</h2>
+            <p>TikTok Comment Extractor se compromete a proteger su privacidad:</p>
+            <ul>
+                <li>Solo recopilamos los datos necesarios para el funcionamiento de la aplicación.</li>
+                <li>No compartimos sus datos personales con terceros.</li>
+                <li>Utilizamos medidas de seguridad para proteger sus datos.</li>
+                <li>Usted tiene derecho a acceder, corregir y eliminar sus datos personales.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
